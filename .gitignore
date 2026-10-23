@@ -1,0 +1,7 @@
+# Never commit model weights
+*.safetensors
+*.gguf
+*.bin
+*.pt
+models/
+outputs/
