@@ -1,0 +1,14 @@
+Write-ups and data: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Sam Sultan
+
+Everything in findings/, data/, README.md and ROADMAP.md is licensed under CC BY 4.0.
+You may share and adapt it for any purpose, including commercially, as long as you
+give appropriate credit (Sam Sultan, with a link to this repository), link to the
+licence, and indicate if changes were made.
+
+Full licence: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Scripts in scripts/ are licensed separately under the MIT License (see LICENSE).
+This repository contains no model weights. Third-party tools it refers to, such as
+Heretic (AGPL-3.0), keep their own licences.

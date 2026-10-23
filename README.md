@@ -36,4 +36,4 @@ ROADMAP.md  Stations to tick off
 
 ---
 
-<sub>Measurements and decisions are mine. Not affiliated with AMD, Qwen or the Heretic project. Scripts are provided as-is under the MIT licence.</sub>
+<sub>Measurements and decisions are mine. Not affiliated with AMD, Qwen or the Heretic project. Licence: scripts under [MIT](LICENSE); write-ups and data under [CC BY 4.0](LICENSE-CONTENT), so reuse them freely with credit. No model weights are included.</sub>
