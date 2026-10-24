@@ -4,7 +4,7 @@ Each station ends with something measured and written down. Tick it off when the
 
 ## Abliteration
 
-- [ ] **Station 0: Setup.** PyTorch in the `rocm/pytorch:rocm7.2.4_ubuntu24.04_py3.12_pytorch_release_2.9.1` container sees an R9700 (`scripts/check-rocm-torch.sh` passes)
+- [x] **Station 0: Setup.** (passed 2026-10-25, [record](data/2026-10-25-station-0-rocm-pytorch.md)) PyTorch in the `rocm/pytorch:rocm7.2.4_ubuntu24.04_py3.12_pytorch_release_2.9.1` container sees an R9700 (`scripts/check-rocm-torch.sh` passes)
 - [ ] **Station 1: First run.** Heretic on Qwen3-4B-Instruct-2507, one card. Record: Heretic version, chosen settings, refusal count, KL divergence, run time
 - [ ] **Station 2: Measure properly.** Convert original and edited models to GGUF Q8_0. Compare perplexity, `llama-bench` speed and a fixed 20–30-question task set
 - [ ] **Station 3: Cost curve.** Repeat with three different results from the same search: refusal rate against KL divergence and perplexity → **Finding 01**
