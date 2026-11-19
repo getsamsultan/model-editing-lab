@@ -17,6 +17,10 @@ Each station ends with something measured and written down. Tick it off when the
 - [ ] **Station 7: First LoRA.** Small Qwen fine-tuned on public material (Modbus specification, own lab notes) with PEFT + TRL on ROCm
 - [ ] **Station 8: Learned vs forgot.** Before/after on held-out questions plus perplexity → **Finding 03**
 
+## Research items
+
+- [ ] **Batch invariance on ROCm.** Same request, different batch size, different output: measure it on llama.cpp ROCm and study how DeepSeek's DeepInfer avoids it on NVIDIA. Needed so small edit effects are not confused with run-to-run variation. See [reference/deepinfer.md](reference/deepinfer.md)
+
 ## Blocked for now
 
 - [ ] **Qwen3.8-Flash-Next.** ~354 GB at full precision and a new architecture (`qwen4exp`): too big for this rig, and not yet supported by the tools

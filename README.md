@@ -31,6 +31,7 @@ See [ROADMAP.md](ROADMAP.md) for each station and where it's up to.
 findings/   One write-up per finding
 data/       Raw scores and run records
 scripts/    Setup checks and helpers
+reference/  Engines and implementations studied, not run here (e.g. DeepSeek DeepInfer)
 ROADMAP.md  Stations to tick off
 ```
 
