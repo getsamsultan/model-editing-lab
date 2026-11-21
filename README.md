@@ -8,7 +8,7 @@ The question isn't "can it be done": it can, in minutes. The question is **what 
 
 ## Ground rules
 
-- **Methods and measurements are published here. Edited model weights are not.** No uncensored models are uploaded from this lab.
+- **Methods and measurements are published here. Edited model weights are not.** No uncensored models are uploaded from this lab. Quantised copies of unmodified, permissively licensed releases may be published, with verification results; weights whose behaviour was deliberately changed (abliteration, fine-tunes, merges) are not.
 - Small public models only, under licences that allow modification (Qwen3: Apache-2.0).
 - Every result records the tool version, model name and hash, settings and scores, like the RDNA4 lab.
 - Experiments run in their own containers, separate from any production stack.
