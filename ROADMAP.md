@@ -21,6 +21,8 @@ Each station ends with something measured and written down. Tick it off when the
 
 - [ ] **Batch invariance on ROCm.** Same request, different batch size, different output: measure it on llama.cpp ROCm and study how DeepSeek's DeepInfer avoids it on NVIDIA. Needed so small edit effects are not confused with run-to-run variation. See [reference/deepinfer.md](reference/deepinfer.md)
 
+- [ ] **Songe: a model that fine-tunes itself.** [Songe](https://github.com/sous-labs/songe) (Apache-2.0) trains a LoRA adapter from an agent's own conversations while the machine is idle. Does it run on ROCm, what does each automatic edit gain and cost, and can an injected instruction be learned into the weights? Pairs with the RDNA4 lab's [OpenAPPA plan](https://github.com/getsamsultan/rdna4-local-ai-lab/blob/main/docs/test-plans/openappa-local-models.md) → [test plan](plans/songe-self-learning.md)
+
 ## Blocked for now
 
 - [ ] **Qwen3.8-Flash-Next.** ~354 GB at full precision and a new architecture (`qwen4exp`): too big for this rig, and not yet supported by the tools
